@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o myfile
+gcc -c $CFILE -o dan.o 
