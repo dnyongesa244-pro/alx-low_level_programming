@@ -1,6 +1,7 @@
-#!/bin/bash
+#include <stdio.h>
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle") ==EOF;
+	return puts("with proper grammar, but the outcome is a piece of art,");
 	return 0;
 }
+
