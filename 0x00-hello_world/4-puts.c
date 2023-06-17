@@ -1,0 +1,6 @@
+#!/bin/bash
+int main(void)
+{
+	puts("Programming is like building a multilingual puzzle") ==EOF;
+	return 0;
+}
