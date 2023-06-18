@@ -1,13 +1,14 @@
 #include <stdio.h>
-/**
- * this is a c program stating with a header file
+/*
+ * Thi is a c program starting with aheader
  *
- * itn main is the main function 
+ * it has the main function ich is the entry point to a program
  *
- * the program is a simple out put with puts format
+ * it give an output usinf=g puts methos
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	return puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
+
