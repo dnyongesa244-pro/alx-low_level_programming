@@ -1,11 +1,11 @@
 #include <stdio.h>
 /*
  *
- *This is a c programm starting with a header
+ *main - Entry point of the program
  *
- *It has the main function which is the entry point to a program
+ *Description: This is a C program that prints a message using the puts function.
  *
- *It gives an output using puts method
+ *Return: Always 0 (indicating successful execution)
  *
  */
 int main(void)
