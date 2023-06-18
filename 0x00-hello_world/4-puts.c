@@ -1,11 +1,11 @@
 #include <stdio.h>
 /*
  *
- * this is a c program starting with a c file
+ *This is a c programm starting with a header
  *
- * it has an entrry point main
+ *It has the main function which is the entry point to a program
  *
- * print through put mentod
+ *It gives an output using puts method
  *
  */
 int main(void)
