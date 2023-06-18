@@ -1,14 +1,15 @@
 #include <stdio.h>
 /*
- *This is a c program 
- *
+*This is a c program 
+*
 *It print s lowew and uppert alpha
- *
- */
+*
+*/
 int main()
 {
 	int i;
-	for(i = 97 ; i <= 122 ; i++)
+
+	for (i = 97 ; i <= 122 ; i++)
 	{
 		putchar(i);
 	}
