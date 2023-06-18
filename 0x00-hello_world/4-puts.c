@@ -1,12 +1,8 @@
 #include <stdio.h>
 /*
+ *Main - Entry point
  *
- *main - Entry point of the program
- *
- *Description: C program that prints a message using the puts function.
- *
- *Return: Always 0 (indicating successful execution)
- *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
