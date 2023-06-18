@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  *
  * this is a c program starting with a c file
  *
