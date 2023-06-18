@@ -1,5 +1,6 @@
  #include <stdio.h>
-/*
+
+/**
  * Thi is a c program starting with aheader
  *
  * it has the main function ich is the entry point to a program
