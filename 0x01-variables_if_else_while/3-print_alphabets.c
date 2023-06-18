@@ -3,7 +3,8 @@
  * This is a c program 
  *
  * it print s lowew and uppert alpha
- * /
+ *
+ */
 int main()
 {
 	int i;
