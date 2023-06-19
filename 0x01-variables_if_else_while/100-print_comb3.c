@@ -13,6 +13,10 @@ int main(void)
 	{
 		for (j = 1 ; j <10 ; j++)
 		{
+			if ((i!=0)&&(j==0||j==1||j==2))
+			{
+				continue;
+			}
 			putchar(i + '0');
 			putchar(j + '0');
 			if ( i <8 || j < 9)
