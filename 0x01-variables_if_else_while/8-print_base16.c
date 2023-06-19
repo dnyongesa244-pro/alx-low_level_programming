@@ -1,14 +1,14 @@
 #include <stdio.h>
 /*
  * this is a c code
- * 
+ *
  * it prints hexadecimal digits
  */
 int main(void)
 {
 	int i;
 
-	for(i = 0 ; i <= 15 ; i++)
+	for (i = 0 ; i <= 15 ; i++)
 	{
 		if (i < 10)
 		{
@@ -16,7 +16,7 @@ int main(void)
 		}
 		else
 		{
-			putchar('A' + (i-10));
+			putchar('A' + (i - 10));
 		}
 	}
 	putchar('\n');
