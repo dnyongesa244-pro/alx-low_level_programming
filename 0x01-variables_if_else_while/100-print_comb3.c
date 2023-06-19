@@ -11,6 +11,10 @@ int main(void)
 
 	for (i = 0; i <9 ; i++)
 	{
+		if(i==j)
+		{
+			continue;
+		}
 		for (j = i ; j <10 ; j++)
 		{
 			putchar(i + '0');
