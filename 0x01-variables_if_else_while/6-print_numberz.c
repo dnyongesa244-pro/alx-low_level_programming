@@ -7,8 +7,7 @@ int main(void)
         int i;
         for (i = 0 ; i <= 9 ; i++)
         {
-        	char d = i + '0';
-        	putchar(d);
+              	putchar(i+'0');
 	}
 	return (0);
 }
