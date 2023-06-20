@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*
- *This is a C program that prints combination didit numbers.
+/**
+ * main - This is a C program that prints combination didit numbers.
+ *
+ * Return: 0 Always (Succes)
  */
 int main(void)
 {
