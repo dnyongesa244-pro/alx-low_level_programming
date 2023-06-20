@@ -18,4 +18,5 @@ int main(void)
 {
 	const char* word = "_putchar";
 	msg(word);
+	return (0);
 }
