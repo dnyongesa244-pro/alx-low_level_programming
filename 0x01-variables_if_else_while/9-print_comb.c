@@ -1,5 +1,5 @@
-#include <s*tdio.h>
-/*
+#include <stdio.h>
+/**
  * main - this i a c rogram
  *
  * Return: 0 Always (Success)
