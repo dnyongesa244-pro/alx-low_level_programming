@@ -2,7 +2,7 @@
 /**
  * print_alphabet - prototype of void
  */
-print_alphabet(void)
+void print_alphabet(void)
 {
 	 char i;
 	for (i = 'a' ; i <= 'z' ; i++)
