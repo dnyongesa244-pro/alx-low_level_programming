@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * isalpha - checks whether a character is an alphabet or not
+ * _isalpha - checks whether a character is an alphabet or not
  *
- * @c is the letter to be checked
+ * @c: is the letter to be checked
  *
  * Return: 0 Always (Not alphabet) , 1 Always alphabet)
  */
