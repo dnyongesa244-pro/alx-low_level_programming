@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
- *this is a c code
+/**
+ *,ain - this is a c code
  *
  * it combines three digits without repatition
+ *
+ * Return :0 always(succes)
  */
 int main(void)
 {
