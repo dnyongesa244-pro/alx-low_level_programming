@@ -14,7 +14,7 @@ int main(void)
 			if (i == j)
 			{
 				continue;
-			}	
+			}
 			putchar(i / 10 + '0');
 			putchar(i % 10 + '0');
 			putchar(' ');
