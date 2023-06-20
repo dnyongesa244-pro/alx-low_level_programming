@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * this is a c code
+/**
+ * main - this is a c code
  *
- * it prints hexadecimal digits
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
