@@ -8,7 +8,8 @@
 void msg(const char *lett)
 {
 	int i = 0;
-	while(lett[i] != ('\0'))
+
+	while (lett[i] != ('\0'))
 	{
 		_putchar(lett[i]);
 		i++;
@@ -18,6 +19,7 @@ void msg(const char *lett)
 int main(void)
 {
 	const char *word = "_putchar";
+
 	msg(word);
 	return (0);
 }
