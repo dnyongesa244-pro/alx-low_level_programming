@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  *main - this is a c file
  *
- *Return: 0 Always (success)
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
