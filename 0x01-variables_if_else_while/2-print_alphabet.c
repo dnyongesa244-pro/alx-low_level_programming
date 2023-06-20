@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * this is a c file
+ *main - this is a c file
  *
- *it prints alphabet a to z
+ *Return: 0 Always (success)
  */
 int main(void)
 {
