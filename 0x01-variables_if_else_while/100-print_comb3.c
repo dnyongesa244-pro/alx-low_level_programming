@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * this is a c program
+/**
+ * main - program
  *
- * it print a compination of two digits
+ * Return: 0 Always (Success)
  *
  */
 int main(void)
