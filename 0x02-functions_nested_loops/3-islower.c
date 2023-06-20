@@ -4,9 +4,7 @@
  *
  * @c:  is the parrameter pased to the function
  *
- * Return: 1 Always (Lower  case)
- *
- * Return: 0 Always (Not lower case)
+ * Return: 1 Always (Lower  case), 2(Uppercase)
  */
 int _islower(int c)
 {
