@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * this is a c program to print integer 1-9
+/**
+ * main - this is a c program to print integer 1-9
+ *
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
