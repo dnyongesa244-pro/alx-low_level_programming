@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * This is a c program with a header
+ *main This is a c program with a header
  *
- * the main function is the entry point to the program
+ * Return 0 (succes)
  */
 int main(void)
 {
@@ -17,10 +17,10 @@ int main(void)
 
 	float e;
 
-	printf("Size of a char: %zu byte(s)\n", sizeof(b));
-	printf("Size of an int: %zu byte(s)\n", sizeof(a));
-	printf("size of a long int: %zu byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
-	printf("Size of a float: %zu byte(s)\n", sizeof(e));
+	printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(a));
+	printf("size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
