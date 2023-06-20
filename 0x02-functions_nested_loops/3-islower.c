@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _islower - is a function to check the letter
+ * _islowe - is a function to check the letter
  *
  * @c:  is the parrameter pased to the function
  */
