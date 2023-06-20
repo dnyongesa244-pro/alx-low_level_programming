@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * This is a c program that gives an outputh throughtrint method
+/**
+ * main - This is a c program that gives an outputh throughtrint method
  *
- * Return 0 means succes
+ * Return: 0 means succes
  */
 int main(void)
 {
