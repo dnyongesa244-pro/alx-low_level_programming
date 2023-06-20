@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /*
- *main This is a c program with a header
- *
+ * main This is a c program with a header
  * Return 0 (succes)
  */
 int main(void)
