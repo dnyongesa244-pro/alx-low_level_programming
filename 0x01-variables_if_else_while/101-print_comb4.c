@@ -4,7 +4,7 @@
  *
  * it combines three digits without repatition
  *
- * Return :0 always(succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
