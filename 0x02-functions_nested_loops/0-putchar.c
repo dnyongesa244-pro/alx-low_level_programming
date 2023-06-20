@@ -1,12 +1,8 @@
 #include "main.h"
 /**
- * main - enry point to the program
+ * msg - Prints a string character by character.
  *
- * Return: 0 Always ((Success)
- *
- * msg - this is a created function
- *
- * lett - this is the parameter for function msg
+ * @lett: The string to print.
  */
 void msg(const char *lett)
 {
@@ -19,6 +15,11 @@ void msg(const char *lett)
 	}
 	_putchar('\n');
 }
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always 0 (Success).
+ */
 int main(void)
 {
 	const char *word = "_putchar";
