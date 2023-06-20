@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - this is a c code to print integer 1-9
  *
  * Return: 0 Always (Success)
