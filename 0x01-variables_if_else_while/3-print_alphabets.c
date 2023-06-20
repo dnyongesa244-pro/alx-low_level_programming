@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
-*This is a c program
+/**
+* main - This is a c program
 *
 *It print s lowew and uppert alpha
 *
+* Return: 0 Always (Success)
 */
 int main(void)
 {
