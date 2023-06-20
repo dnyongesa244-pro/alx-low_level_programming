@@ -2,8 +2,8 @@
 /**
  *  _islower - is a function to check the letter
  *
- * @c -  is the parrameter pased to the function
- *  */
+ * @c:  is the parrameter pased to the function
+ */
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
