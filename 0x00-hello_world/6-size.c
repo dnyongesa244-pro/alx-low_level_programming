@@ -2,7 +2,7 @@
 
 /**
  * main - This is a c program with a header
- * Return 0 (succes)
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
