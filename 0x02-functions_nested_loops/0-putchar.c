@@ -4,6 +4,9 @@
  *
  * Return: 0 Always ((Success)
  *
+ * msg - this is a created function
+ *
+ * lett - this is the parameter for function msg
  */
 void msg(const char *lett)
 {
