@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * this is a c code
+/**
+ * main - this is a c code
  *
- * it print lower alpha in reverse order
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
