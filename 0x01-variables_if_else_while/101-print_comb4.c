@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *,ain - this is a c code
+ * main - this is a c code
  *
  * it combines three digits without repatition
  *
