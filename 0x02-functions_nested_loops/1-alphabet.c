@@ -4,8 +4,8 @@
  */
 print_alphabet(void)
 {
-	int i;
-	for (i = 65 ; i <= 90 ; i++)
+	 char i;
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
 		putchar(i);
 	}
