@@ -1,7 +1,8 @@
 #include <unistd.h>
-/*
- * revising the program
+/**
+ * main - revising the program
  *
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
