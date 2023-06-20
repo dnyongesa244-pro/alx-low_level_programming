@@ -13,6 +13,7 @@ void msg(const char* lett)
 		_putchar(lett[i]);
 		i++;
 	}
+	_putchar(' ');
 }
 int main(void)
 {
