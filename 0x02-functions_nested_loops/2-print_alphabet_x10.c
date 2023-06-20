@@ -1,10 +1,9 @@
-#include"main.h"
+#include "main.h"
 /**
- * print_alphabet_x10 is a function name
+ * print_alphabet_x10 - is a function name
  */
 void print_alphabet_x10(void)
 {
-	
 	int cout = 1;
 
 	while (cout <= 10)
@@ -17,5 +16,5 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 		cout++;
-   }
+	}
 }
