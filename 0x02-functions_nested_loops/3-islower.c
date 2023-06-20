@@ -3,6 +3,10 @@
  * _islowe - is a function to check the letter
  *
  * @c:  is the parrameter pased to the function
+ *
+ * Return: 1 Always (Lower  case)
+ *
+ * Return: 0 Always (Not lower case)
  */
 int _islower(int c)
 {
