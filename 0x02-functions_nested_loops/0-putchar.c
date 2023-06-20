@@ -1,21 +1,18 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <unistd.h>
+
 /**
- *  main - is the entry point
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- *  Return: 0 Always (Success)
-void msg (const char* lett)
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-	int i = 0;
-	while (lett[i] != ('\0'))
-	{
-		putchar(lett[i]);
-		i++;
-	}
-	putchar(' ');
+	return (write(1, &c, 1));
 }
-int main(void)
+int _putchar(char c)
 {
-	const char* word = "_putchar";
-	msg(word);
-	return (0);
+	return (write(1, &c, 1));
 }
