@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- *This is a c code to print lower alpha a-z skipping e and q
+/**
+ * main - This is a c code to print lower alpha a-z skipping e and q
+ *
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
