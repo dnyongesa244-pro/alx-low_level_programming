@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <s*tdio.h>
 /*
- * his i a c rogram
+ * main - this i a c rogram
  *
- * it prins integers 1 to 10 separeted by comma
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
