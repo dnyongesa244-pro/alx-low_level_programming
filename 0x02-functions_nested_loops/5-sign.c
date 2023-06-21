@@ -64,24 +64,24 @@ int print_sign(int n)
     {
         printint(n);
         _putchar(' ');
-        const char *ch = "is less than zero";
-        msg(ch);
+        const char *note = "is less than zero";
+        msg(note);
         return -1;
     }
     else if (n == 0)
     {
         printint(n);
         _putchar(' ');
-        const char *ch = "is zero";
-        msg(ch);
+        const char *note = "is zero";
+        msg(note);
         return 0;
     }
     else
     {
         printint(n);
         _putchar(' ');
-        const char *ch = "is greater than zero";
-        msg(ch);
+        const char *note = "is greater than zero";
+        msg(note);
         return 1;
     }
 }
