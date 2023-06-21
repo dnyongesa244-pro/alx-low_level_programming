@@ -57,36 +57,57 @@ void msg(const char *ch)
  *
  * @n: is the parameter
  *
- * Return: -1 (negativ), 0 (zero), 1 (Positive)
+ * Return: -1 (negative), 0 (zero), 1 (Positive)
  */
 int print_sign(int n)
 {
-/*	const char *note; */
     if (n < 0)
     {
-	    _putchar('-');
-        printint(n);
-/*        _putchar(' ');*/
-	
-/*       note = "is less than zero";*/
-/*       msg(note);*/
+        _putchar('-');
+        printint(-n);
         return -1;
     }
     else if (n == 0)
     {
-	     _putchar('0');
-/*        printint(n);*/
-  /*      _putchar(' ');*/
-    /*    note = "is zero";*/
-      /*  msg(note);*/
+        _putchar('0');
         return 0;
     }
     else
     {
         printint(n);
-      /*  _putchar(' ');*/
-      /*  note = "is greater than zero";*/
-     /*  msg(note);*/
         return 1;
     }
 }
+
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int r;
+
+    r = print_sign(98);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(0);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(0xff);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(-1);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    return (0);
+}
+
