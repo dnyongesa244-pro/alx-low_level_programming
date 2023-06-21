@@ -41,6 +41,7 @@ void printint(int num)
  *
  * @ch: is the parameter
  */
+/*
 void msg(const char *ch)
 {
     int i = 0;
@@ -50,7 +51,7 @@ void msg(const char *ch)
         i++;
     }
 }
-
+*/
 /**
  * num - is the funtion nme
  *
@@ -60,29 +61,31 @@ void msg(const char *ch)
  */
 int print_sign(int n)
 {
-	const char *note;
+/*	const char *note; */
     if (n < 0)
     {
         printint(n);
-        _putchar(' ');
-        note = "is less than zero";
-        msg(note);
+//        _putchar(' ');
+	
+//       note = "is less than zero";
+//       msg(note);
+//
         return -1;
     }
     else if (n == 0)
     {
         printint(n);
-        _putchar(' ');
-        note = "is zero";
-        msg(note);
+  //      _putchar(' ');
+    //    note = "is zero";
+      //  msg(note);
         return 0;
     }
     else
     {
         printint(n);
-        _putchar(' ');
-        note = "is greater than zero";
-        msg(note);
+      //  _putchar(' ');
+      //  note = "is greater than zero";
+      //  msg(note);
         return 1;
     }
 }
