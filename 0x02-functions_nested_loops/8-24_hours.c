@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauerb - function name
+ * jack_bauer - function name
  */
 void jack_bauer(void)
 {
