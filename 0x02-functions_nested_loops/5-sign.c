@@ -60,11 +60,12 @@ void msg(const char *ch)
  */
 int print_sign(int n)
 {
+	const char *note;
     if (n < 0)
     {
         printint(n);
         _putchar(' ');
-        const char *note = "is less than zero";
+        note = "is less than zero";
         msg(note);
         return -1;
     }
@@ -72,7 +73,7 @@ int print_sign(int n)
     {
         printint(n);
         _putchar(' ');
-        const char *note = "is zero";
+        note = "is zero";
         msg(note);
         return 0;
     }
@@ -80,7 +81,7 @@ int print_sign(int n)
     {
         printint(n);
         _putchar(' ');
-        const char *note = "is greater than zero";
+        note = "is greater than zero";
         msg(note);
         return 1;
     }
