@@ -65,27 +65,26 @@ int print_sign(int n)
     if (n < 0)
     {
         printint(n);
-//        _putchar(' ');
+/*        _putchar(' ');*/
 	
-//       note = "is less than zero";
-//       msg(note);
-//
+/*       note = "is less than zero";*/
+/*       msg(note);*/
         return -1;
     }
     else if (n == 0)
     {
         printint(n);
-  //      _putchar(' ');
-    //    note = "is zero";
-      //  msg(note);
+  /*      _putchar(' ');*/
+    /*    note = "is zero";*/
+      /*  msg(note);*/
         return 0;
     }
     else
     {
         printint(n);
-      //  _putchar(' ');
-      //  note = "is greater than zero";
-      //  msg(note);
+      /*  _putchar(' ');*/
+      /*  note = "is greater than zero";*/
+     /*  msg(note);*/
         return 1;
     }
 }
