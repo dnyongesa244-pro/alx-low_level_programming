@@ -5,7 +5,7 @@
  *
  * @num: parameter
  */
-nt print_last_digit(int num)
+int print_last_digit(int num)
 {
 	int x = num % 10;
 	return (x);
