@@ -15,21 +15,21 @@ void times_table(void)
 			num = i * mult;
 			if (num >= 10)
 			{
-				putchar((num / 10) + '0');
-				putchar((num % 10) + '0');
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
 				if (mult! = 9)
 				{
-					putchar(',');
-				    putchar(' ');
+					_putchar(',');
+					_putchar(' ');
 				}
 			}
 			else
 			{
-				putchar(num+'0');
+				_putchar(num+'0');
 				if (mult != 9)
 				{
-					putchar(',');
-				    putchar(' ');
+					_putchar(',');
+					_putchar(' ');
 				}
 			}
 		}
