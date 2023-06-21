@@ -8,16 +8,16 @@ void times_table(void)
 	int i;
 	int mult;
 	int num;
-		for(i=0;i<=9;i++)
+		for (i = 0 ; i <= 9 ; i++)
 	{
-		for(mult=0;mult<=9;mult++)
+		for (mult = 0 ; mult <= 9 ; mult++)
 		{
 			num = i * mult;
 			if (num >= 10)
 			{
 				_putchar((num / 10) + '0');
 				_putchar((num % 10) + '0');
-				if (mult! = 9)
+				if (mult != 9)
 				{
 					_putchar(',');
 					_putchar(' ');
@@ -33,6 +33,6 @@ void times_table(void)
 				}
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
