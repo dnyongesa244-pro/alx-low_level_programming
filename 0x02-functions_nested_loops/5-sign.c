@@ -64,6 +64,7 @@ int print_sign(int n)
 /*	const char *note; */
     if (n < 0)
     {
+	    _putchar('-');
         printint(n);
 /*        _putchar(' ');*/
 	
@@ -73,7 +74,8 @@ int print_sign(int n)
     }
     else if (n == 0)
     {
-        printint(n);
+	     _putchar('0');
+/*        printint(n);*/
   /*      _putchar(' ');*/
     /*    note = "is zero";*/
       /*  msg(note);*/
