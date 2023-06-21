@@ -3,7 +3,9 @@
 /**
  * _abs - functiond name
  *
- * @value - parameter
+ * @value:  parameter
+ *
+ * Return: int (succes)
  */
 int _abs(int value)
 {
