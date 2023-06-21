@@ -4,6 +4,8 @@
  * print_last_digit - function name
  *
  * @num: parameter
+ *
+ * Return: int (Succes)
  */
 int print_last_digit(int num)
 {
