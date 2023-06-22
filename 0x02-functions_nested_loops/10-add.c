@@ -1,5 +1,8 @@
 #include <stdio.h>
-int add(int a,int b)
+/**
+ * add - the function to perform computation
+ */
+int add(int a, int b)
 {
 	int sum = a + b;
 
