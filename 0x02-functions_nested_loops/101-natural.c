@@ -13,6 +13,7 @@ void prt(int val)
 	while (val > 0)
 	{
 		int digit = val % 10;
+
 		rev = rev * 10 + digit;
 		val /= 10;
 	}
@@ -23,7 +24,7 @@ void prt(int val)
 		_putchar(digit + '0');
 		rev /= 10;
 	}
-	_putchar(' ');
+	_putchar('\n');
 }
 /**
  * num - functio name
@@ -35,7 +36,7 @@ void prt(int val)
 int num(int val)
 {
 	int n, sum, count;
-       n = 0;
+	n = 0;
 	sum = 0;
 	while (n != val)
 	{
