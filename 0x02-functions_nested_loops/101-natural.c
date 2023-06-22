@@ -9,7 +9,7 @@
 void prt(int val)
 {
 	int rev = 0;
-	
+
 	while (val > 0)
 	{
 		int digit = val % 10;
@@ -36,6 +36,7 @@ void prt(int val)
 int num(int val)
 {
 	int n, sum, count;
+
 	n = 0;
 	sum = 0;
 	while (n != val)
