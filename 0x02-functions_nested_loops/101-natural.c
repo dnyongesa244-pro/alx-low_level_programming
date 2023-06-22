@@ -6,7 +6,7 @@
  *
  * Return: val Alwayss (Ssuccess)
  */
-int prt(int val)
+void prt(int val)
 {
 	int rev = 0;
 
