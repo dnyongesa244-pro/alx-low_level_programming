@@ -9,8 +9,8 @@
 void prt(int val)
 {
 	int rev = 0;
-
-        while (val > 0)
+	
+	while (val > 0)
 	{
 		int digit = val % 10;
 		rev = rev * 10 + digit;
@@ -49,7 +49,7 @@ int num(int val)
 	return (sum);
 }
 /**
- * main - entry point to program
+ * main - the beginig of the progrmmz
  *
  * Return: 0 (success)
  */
