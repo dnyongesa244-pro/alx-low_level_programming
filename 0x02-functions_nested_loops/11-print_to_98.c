@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * print_to_98 - main function
+ *
+ * @n: number to start
  */
 void print_to_98(int n)
 {
