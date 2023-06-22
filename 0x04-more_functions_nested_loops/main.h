@@ -14,6 +14,8 @@ void print_numbers(void);
 
 int largest_number(int a, int b, int c);
 
+void print_most_numbers(void);
+
 void print_remaining_days(int month, int day, int year);
 
 void print_alphabet(void);
