@@ -10,19 +10,20 @@ void prt(int val)
 {
 	int rev = 0;
 
-        while (val > 0) 
+        while (val > 0)
 	{
 		int digit = val % 10;
-	       	rev = rev * 10 + digit;
+		rev = rev * 10 + digit;
 		val /= 10;
-        }
-
-        while (rev > 0)
+	}
+	while (rev > 0)
 	{
 		int digit = rev % 10;
+
 		_putchar(digit + '0');
 		rev /= 10;
-        }
+	}
+	_putchar(' ');
 }
 /**
  * num - functio name
@@ -34,8 +35,7 @@ void prt(int val)
 int num(int val)
 {
 	int n, sum, count;
-	
-	n = 0;
+       n = 0;
 	sum = 0;
 	while (n != val)
 	{
@@ -48,7 +48,7 @@ int num(int val)
 	}
 	return (sum);
 }
-/* 
+/**
  * main - entry point to program
  *
  * Return: 0 (success)
@@ -56,6 +56,7 @@ int num(int val)
 int main(void)
 {
 	int x, y;
+
 	x = 1024;
 	y = num(x);
 	prt(y);
