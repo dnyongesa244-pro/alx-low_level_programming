@@ -6,6 +6,8 @@ void print_to_98(int n);
 
 int _isupper(int c);
 
+int _isdigit(int c);
+
 int largest_number(int a, int b, int c);
 
 void print_remaining_days(int month, int day, int year);
