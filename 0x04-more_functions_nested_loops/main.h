@@ -4,6 +4,8 @@ int _putchar(char c);
 
 void print_to_98(int n);
 
+void print_square(int size);
+
 int _isupper(int c);
 
 void print_line(int n);
