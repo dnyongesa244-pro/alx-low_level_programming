@@ -7,13 +7,15 @@
 void prime(long number)
 {
 	long i;
+
 	int x;
+
 	for (i = 2 ; i <= number ; i++)
 	{
 		while (number % i == 0)
 		{
 			number /= i;
-			x = (long)i;
+			x = (long) i;
 		}
 	}
 	printf("%d", x);
