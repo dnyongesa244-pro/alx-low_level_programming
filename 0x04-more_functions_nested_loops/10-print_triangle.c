@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "mai.h"
 /**
  *  print_square - function name
  *
@@ -6,9 +7,11 @@
  */
 void print_square(int num)
 {
-	for (int i = 0; i < num ; i++)
+	int i;
+	for (i = 0; i < num ; i++)
 	{
-		for (int j = 0 ; j <= num ; j++)
+		int j;
+		for (j = 0 ; j <= num ; j++)
 		{
 			int k = num-i;
 			if(k <= j)
