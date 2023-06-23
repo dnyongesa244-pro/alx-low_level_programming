@@ -26,6 +26,7 @@ void range(void)
 			}
 			printf(" ");
 		}
+		printf("\n");
 	}
 }
 int main(void)
