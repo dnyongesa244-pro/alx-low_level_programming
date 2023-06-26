@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -13,8 +13,8 @@ int main(void)
 
     a = 98;
     b = 42;
-    printf(a=%d, b=%dn, a, b);
+    printf("a=%d, b=%dn", a, b);
     swap_int(&a, &b);
-    printf(a=%d, b=%dn, a, b);
+    printf("a=%d, b=%dn", a, b);
     return (0);
 }
