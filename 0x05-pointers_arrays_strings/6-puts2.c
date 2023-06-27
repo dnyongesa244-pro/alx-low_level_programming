@@ -12,7 +12,7 @@ void puts2(char *str)
 
 	int i;
 
-	while (i = 0 ; i < x ; i++)
+	for (i = 0 ; i < x ; i++)
 	{
 		_putchar(str[i]);
 		_putchar('\n');
