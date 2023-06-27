@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts - The function namee
+ * puts2 - The function namee
  *
  * @str: paramertr to pass
  */
@@ -14,7 +14,10 @@ void puts2(char *str)
 
 	for (i = 0 ; i < x ; i++)
 	{
-		_putchar(str[i]);
+		if(i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
 		_putchar('\n');
 	}
 }
