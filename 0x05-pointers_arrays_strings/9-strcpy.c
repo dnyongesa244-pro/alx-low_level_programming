@@ -7,6 +7,8 @@
  * @dest: destination address
  *
  * @src: source address
+ *
+ * Return: dest Meaans (Success)
  */
 char *_strcpy(char *dest, char *src)
 {
