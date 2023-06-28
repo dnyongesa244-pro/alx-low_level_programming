@@ -28,6 +28,6 @@ void getpswd(int length)
 }
 int main(void)
 {
-	getpswd(8);
+	getpswd(12);
 	return (0);
 }
