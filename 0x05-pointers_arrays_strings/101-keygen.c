@@ -3,31 +3,49 @@
 #include <time.h>
 
 /**
- * getpswd - function to generate pasword
- *
- * @length: parameter to determin pasword leng
+ * main - this is the main function
  */
-
-void getpswd(int length)
+int main()
 {
-	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*()!?";
-	int charsetsize = sizeof(charset) - 1;
-
-	int i, index;
-
-	char ch;
+	char pswd[84];
+	int index = 0,sum = 0, diff_half1 ,diff_half2;
 	
-	srand(time(NULL));
-	for(i = 0; i< length ;i++)
+	srand(time(0));
+	
+	while (sum < 2772)
 	{
-		index = rand() % charsetsize;
-		ch = charset[index];
-		printf("%c",ch);
+		pswd[index] = 33 + rand() % 94;
+		sum += pswd[index++];
 	}
-	printf("\n");
-}
-int main(void)
-{
-	getpswd(12);
-	return (0);
+	pswd[index] = '\0';
+	
+	if((sum != 2772))
+	{
+		diff_half1 = (sum - 2772) / 2;
+		diff_half2 = (sum - 2772) / 2;
+		
+		if((sum - 2772) % 2 != 0)
+		{
+			diff_half1++;
+		}
+		
+		for (index = 0; pswd[index]; index++)
+		{
+			if (pswd[index] >= (33 + diff_half1))
+			{
+				pswd[index] = diff_half1;
+				break;
+			}
+		}
+		for (index = 0 ; pswd[index] ; index++)
+		{
+			if (pswd[index] >= (33 + diff_half1))
+			{
+				pswd[index] -= diff_half2;
+				break;
+			}
+		}
+	}
+	printf("%s",pswd);
+	return(0);
 }
