@@ -12,13 +12,16 @@ void getpswd(int length)
 {
 	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*()!?";
 	int charsetsize = sizeof(charset) - 1;
+
+	int i, index;
+
+	char ch;
 	
 	srand(time(NULL));
-	
-	for(int i = 0; i< length ;i++)
+	for(i = 0; i< length ;i++)
 	{
-		int index = rand() % charsetsize;
-		char ch = charset[index];
+		index = rand() % charsetsize;
+		ch = charset[index];
 		printf("%c",ch);
 	}
 	printf("\n");
