@@ -29,4 +29,5 @@ void getpswd(int length)
 int main(void)
 {
 	getpswd(8);
+	return (0);
 }
