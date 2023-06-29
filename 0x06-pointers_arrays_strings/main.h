@@ -7,4 +7,6 @@ char *_strncat(char *dest, char *src, int n);
 
 char *string_toupper(char *lett);
 
+char *cap_string(char *);
+
 #endif
