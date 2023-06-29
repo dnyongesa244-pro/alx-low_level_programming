@@ -9,4 +9,6 @@ char *string_toupper(char *lett);
 
 char *cap_string(char *);
 
+char *leet(char *);
+
 #endif
