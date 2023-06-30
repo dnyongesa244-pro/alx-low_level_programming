@@ -11,4 +11,6 @@ char *cap_string(char *);
 
 char *leet(char *);
 
+void reverse_array(int *a, int n);
+
 #endif
