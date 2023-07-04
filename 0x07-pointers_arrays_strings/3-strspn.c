@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _strspn _ a function to check for similarities
+ * _strspn _ a function to check for similarities
  *
  * @s: First string
  *
@@ -15,18 +15,18 @@ unsigned int _strspn(char *s, char *accept)
 
 	value = 0;
 
-	for(i = 0 ; s[i] ; i++)
+	for (i = 0 ; s[i] ; i ++)
 	{
-		check = 0 ;
+		check = 0;
 		for (j = 0 ; accept[j] ; j++)
 		{
-			if(s[i] == accept[j])
+			if (s[i] == accept[j])
 			{
 				value++;
 				check = 1;
 			}
 		}
-		if(check == 1)
+		if (check == 1)
 		{
 			s++;
 		}
