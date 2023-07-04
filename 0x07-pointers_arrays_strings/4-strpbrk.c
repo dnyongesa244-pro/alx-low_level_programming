@@ -9,6 +9,8 @@
  * @s: first string
  *
  * @accept: second string
+ *
+ * Return: NULL (Succes)
  */
 
 char *_strpbrk(char *s, char *accept)
