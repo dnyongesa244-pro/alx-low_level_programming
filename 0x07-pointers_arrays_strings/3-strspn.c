@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn _ a function to check for similarities
+ * _strspn - a function to check for similarities
  *
  * @s: First string
  *
