@@ -8,6 +8,8 @@
  * @src: oriin pointer
  *
  * @n: bumer of times
+ *
+ * Return: dest (Succes)
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
