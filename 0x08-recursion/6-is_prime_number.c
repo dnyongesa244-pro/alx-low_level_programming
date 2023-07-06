@@ -34,9 +34,13 @@ int is_prime_number(int n)
 	int c;
 
 	if (n < 0)
+	{
 		n = n * -1;
+	}
 	if (n == 1)
+	{
 		return (0);
+	}
 	c = n - 1;
 	return (me(n, c));
 }
