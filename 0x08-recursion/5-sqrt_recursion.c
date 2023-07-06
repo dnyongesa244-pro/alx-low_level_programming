@@ -1,5 +1,27 @@
 #include "main.h"
 #include <math.h>
+
+/**
+ * carriage - function to compute squareroot
+ *
+ * @x: integer to be computed
+ *
+ * Return: a (SUccess)
+ */
+
+int carriage(int x)
+{
+	int a = sqrt(x);
+
+	if (x % a == 0)
+	{
+		return (a);
+	}
+	else
+	{
+		return (-1);
+	}
+}
 /**
  * _sqrt_recursion - function to compute squaroot of a number
  *
@@ -9,11 +31,12 @@
  */
 int _sqrt_recursion(int n)
 {
-	int x;
-
-	x = sqrt(n);
-	if (n % x == 0)
-		return (x);
-	else
+	if (n < 0)
+	{
 		return (-1);
+	}
+	else
+	{
+		return (carriage(n));
+	}
 }
