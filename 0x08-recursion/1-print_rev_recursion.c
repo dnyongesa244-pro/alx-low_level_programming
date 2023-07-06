@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * _puts_recursion - function to reverse a string
+ *  _print_rev_recursion - function to reverse a string
  *
  * @s: the string to be reversed
  */
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	int i, x;
 
@@ -15,5 +15,4 @@ void _puts_recursion(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putchar('\n');
 }
