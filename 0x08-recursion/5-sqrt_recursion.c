@@ -1,42 +1,51 @@
 #include "main.h"
-#include <math.h>
-
 /**
- * carriage - function to compute squareroot
+ * me - function to compute squaroot
  *
- * @x: integer to be computed
+ * @x: number to be computed
  *
- * Return: a (SUccess)
+ * @y: monitering
+ *
+ * Return: y (Success)
  */
 
-int carriage(int x)
+int me(int x, int y)
 {
-	int a = sqrt(x);
-
-	if (x % a == 0)
+	if (y * y == x)
 	{
-		return (a);
+		return (y);
 	}
-	else
+	if (y  == x)
 	{
 		return (-1);
 	}
+	return (me(x, y + 1));
 }
 /**
- * _sqrt_recursion - function to compute squaroot of a number
+ * _sqrt_recursion - function to check number befor pusing to me
  *
- * @n: number
+ * @n: number to be checked
  *
  * Return: x (Success)
  */
 int _sqrt_recursion(int n)
 {
+	int x;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (carriage(n));
+		x =  me(n, 0);
+		if (n % x != 0)
+		{
+			return (-1);
+		}
+		else
+		{
+			return (x);
+		}
 	}
 }
