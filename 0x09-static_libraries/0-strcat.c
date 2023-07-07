@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 /**
  * strcat - function to compine
@@ -12,13 +13,5 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *z = (char*) malloc(strlen(dest) + strlen(src) + 1);
-	
-	if(z != NULL)
-	{
-		strcpy(z, dest);
-		strcat(z, src);
-	}
-	
-	return (z);
+	return (src);
 }
