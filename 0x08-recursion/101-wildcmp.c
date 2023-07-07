@@ -17,7 +17,7 @@ bool recursion(char *a, char *b)
 	if (*b == '*')
 	{
 		if (*(b + 1) == '*')
-			return (true);
+			return (recursion(a, b + 1));
 		if (*a == '\0')
 			return (recursion(a, b + 1));
 		return (recursion(a + 1, b) || recursion(a, b + 1));
