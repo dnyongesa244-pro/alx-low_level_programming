@@ -1,18 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - main function
+ *
+ * @argc: first argument
+ *
+ * @argv: second argument
+ *
+ * Return: 0 success
+ */
 int main(int argc, char *argv[])
 {
-	int i, x, y;
+	int x, y;
 
-	y = argc;
-
-	if (argc != 2)
+	if (argc == 3)
 	{
-		print("Error");
-		return 1;
+		x = atoi(argv[1]);
+		y = atoi(argv[2]);
+		printf("%d\n", x * y);
 	}
 	else
 	{
-		for( i = 0; i < ;y ; i ++;
-
+		printf("Error\n");
+		return (1);
 	}
+	return (0);
 }
