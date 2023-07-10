@@ -16,11 +16,8 @@ char *_strdup(char *str)
 
 	char *array;
 
-	if (str == NULL)
-	{
-		printf("failed to allocate memory");
+	if (str == '\0')
 		return (NULL);
-	}
 	array = malloc(sizeof(char) * (x + 1));
 	if (array == NULL)
 		return (NULL);
