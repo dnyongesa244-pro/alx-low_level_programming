@@ -1,6 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/**
+ *struct dog - struct name
+ *
+ * @name: name of user
+ *
+ * @age: age of a person
+ *
+ * @owner: the owingt
+ */
 struct dog
 {
 	char *name;
