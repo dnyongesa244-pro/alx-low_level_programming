@@ -9,12 +9,17 @@
  * @idx: index
  *
  * @n: node
+ *
+ * Return: new_node  (Success)
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	unsigned int count = 0;
+
 	listint_t *current = *head;
+
 	listint_t *new_node;
+
 	if (idx == 0)
 	{
 		new_node = malloc(sizeof(listint_t));
